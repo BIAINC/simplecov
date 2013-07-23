@@ -1,6 +1,8 @@
 Unreleased ([changes](https://github.com/colszowka/simplecov/compare/v0.7.1...master))
 -------------------
 
+  * [FEATURE] Automatically detect the usage of parallel_tests.
+    See https://github.com/colszowka/simplecov/issues/64
   * [FEATURE] Adds support for Rails 4 command guessing. 
     See [#181](https://github.com/colszowka/simplecov/pull/181) (thanks to @semanticart)
   * [REFACTORING] Rename adapters to "profiles" given that they are bundles of settings. The old adapter methods are
